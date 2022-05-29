@@ -1,0 +1,14 @@
+Baixamos VirtualBox, depois baixamos e instalamos o Vagrant
+Abre o CMD como ADM e digitamos os seguintes comandos:
+vagrant version para verificar a versão e se foi instalado
+Abre o d: para criar uma nova pasta
+mkdir ambiente_dev \\criar a past no d:
+cd ambiente_dev \\acessa a pasta
+vagrant init hashicorp/precise64 \\ iniciar o sistema
+vagrant up \\ subir a VM
+vagrant status \\ verificar status da VM
+vagrant halt \\stop na VM
+vagrant suspend \\ suspende
+vagrant ssh \\para conectar na VM, aqui você já está conectado no Ubuntu então os comandos no CMD passam a ser LINUX
+ls para testar \\ listar os arquivos
+Caso queira podemos baixar o GIT BASH https://gitforwindows.org/ para executar os comandos direto em um terminal simulado de Linux.
